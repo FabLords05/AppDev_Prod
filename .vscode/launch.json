@@ -9,7 +9,7 @@
             "runtimeExecutable": "/usr/bin/brave",
             "request": "launch",
             "name": "Open index.html",
-            "file": "/home/fabiojoseph/Documents/my-php/doc/index.html"
+            "file": "${file}"
         }
     ]
 }

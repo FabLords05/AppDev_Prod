@@ -27,7 +27,7 @@ This portfolio website serves as a professional online presence, highlighting sk
 ### Frontend
 - **HTML5** - Semantic markup structure
 - **CSS3** - Advanced styling with CSS Grid, Flexbox, Gradients, and Animations
-- **FontAwesome 5** - Icon library for social media links
+- **Font Awesome 6** - Icon library (via `css/all.css`)
 - **JavaScript** - (Ready for future interactive features)
 
 ### Design Principles
@@ -44,12 +44,6 @@ doc/
 ├── fabio.jpg            # Profile image
 ├── css/                 # FontAwesome icons
 │   ├── all.css
-│   ├── brands.css
-│   ├── fontawesome.css
-│   ├── regular.css
-│   ├── solid.css
-│   ├── svg-with-js.css
-│   └── v5-font-face.css
 ├── webfonts/            # FontAwesome web fonts
 └── README.md            # This file
 ```
