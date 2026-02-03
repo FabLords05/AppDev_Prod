@@ -6,10 +6,11 @@
     "configurations": [
         {
             "type": "pwa-chrome",
-            "runtimeExecutable": "/usr/bin/brave",
             "request": "launch",
-            "name": "Open index.html",
-            "file": "${file}"
+            "name": "Run PHP on XAMPP",
+            "url": "http://localhost/myproject/${fileBasename}",
+            "runtimeExecutable": "/usr/bin/brave",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
