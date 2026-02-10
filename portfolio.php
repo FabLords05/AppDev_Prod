@@ -15,10 +15,10 @@
         <nav class="top-nav">
             <div class="nav-brand">FJT</div>
             <ul class="nav-links">
-                <li><a href="#intro">Intro</a></li>
-                <li><a href="#expertise">Expertise</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#connect">Connect</a></li>
+                <li><span>Intro</span></li>
+                <li><span>Expertise</span></li>
+                <li><span>Projects</span></li>
+                <li><span>Connect</span></li>
             </ul>
         </nav>
     </header>

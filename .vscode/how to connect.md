@@ -30,6 +30,11 @@ chmod -R o+rX /home/fabiojoseph/Documents/appdev
 
 ```
 
+* **Mount the project:**
+```bash
+sudo mount --bind /home/fabiojoseph/Documents/appdev /opt/lampp/htdocs/appdev
+
+```
 
 ---
 ## 3. Fix PHP Executable for VS Code
@@ -65,12 +70,13 @@ sudo /opt/lampp/lampp start
 
 ```
 
-
 * **Launch XAMPP GUI:**
 ```bash
 cd /opt/lampp && sudo ./manager-linux-x64.run
 
 ```
+
+
 
 
 ---
