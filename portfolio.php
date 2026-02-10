@@ -78,9 +78,9 @@
                     <p class="contact-email">Email: <?php echo $email; ?></p>
                     <div class="social-links" style="margin-top:16px;">
                         <?php foreach($socials as $social): ?>
-                            <a href="<?php echo $social['link']; ?>" class="social-icon" target="_blank">
+                            <span class="social-icon">
                                 <i class="<?php echo $social['icon']; ?>"></i>
-                            </a>
+                            </span>
                         <?php endforeach; ?>
                     </div>
                 </div>
@@ -88,9 +88,5 @@
         </section>
     </main>
 
-    <div class="fixed-bottom-bar" aria-hidden="false">
-        <a href="fabio_cv.pdf" class="btn btn-cv" download aria-label="Download CV"><i class="fas fa-download" aria-hidden="true"></i><span class="btn-text">Get CV</span></a>
-        <a href="#connect" class="btn btn-contact">Contacts</a>
-    </div>
 </body>
 </html>

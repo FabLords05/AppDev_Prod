@@ -8,9 +8,12 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Run PHP on XAMPP",
-            "url": "http://localhost/myproject/${fileBasename}",
+            "url": "http://localhost/appdev/${fileBasename}",
             "runtimeExecutable": "/usr/bin/brave",
-            "webRoot": "${workspaceFolder}"
+            "webRoot": "${workspaceFolder}",
+            "runtimeArgs": [
+                "--user-data-dir=${workspaceFolder}/.vscode/brave-debug-profile"
+            ]
         }
     ]
 }

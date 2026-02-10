@@ -96,9 +96,9 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 80px;
-    min-height: 100vh;
-    padding: 120px 0 60px;
+    gap: 70px;
+    min-height: 90vh;
+    padding: 30px 0 0px;
 }
 
 .content-section {
@@ -204,38 +204,7 @@ a {
     align-items: center;
     justify-content: center;
 }
-
-.portrait-frame::before,
-.portrait-frame::after {
-    content: '';
-    position: absolute;
-    width: 450px;
-    height: 450px;
-    border-radius: 50%;
-    background: conic-gradient(
-        transparent,
-        transparent,
-        transparent,
-        #ff006e
-    );
-    animation: spin 15s linear infinite;
-}
-
-.portrait-frame::after {
-    animation-delay: -7.5s;
-    background: conic-gradient(
-        transparent,
-        transparent,
-        transparent,
-        #00d9ff
-    );
-}
-
-@keyframes spin {
-    100% {
-        transform: rotate(360deg);
-    }
-}
+/* portrait overlay pseudo-elements removed so the image sits on a clean circle */
 
 .portrait-container {
     position: relative;
@@ -316,5 +285,42 @@ a {
     .portrait-frame {
         width: 250px;
         height: 250px;
+    }
+}
+
+/* Two-column layout: left col (expertise only), right col (projects + connect) */
+/* Expertise - left column */
+.section-wrapper:nth-child(1) {
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+}
+
+/* Projects - right column top */
+.section-wrapper:nth-child(2) {
+    float: right;
+    width: 48%;
+    margin-left: 2%;
+}
+
+/* Connect - right column bottom */
+.section-wrapper:nth-child(3) {
+    float: right;
+    width: 48%;
+    margin-right: 2%;
+    clear: none;
+}
+
+.container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 1024px) {
+    .section-wrapper {
+        display: block;
+        width: 100%;
+        margin-right: 0;
     }
 }
