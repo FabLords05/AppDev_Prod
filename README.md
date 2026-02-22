@@ -82,6 +82,15 @@ doc/
    http://localhost:8000
    ```
 
+4. **bind the file.**
+```
+turn on the mysql
+sudo mount --bind /home/fabiojoseph/Documents/AppDev_Prod /opt/lampp/htdocs/appdev
+ip a
+must use a hotspot
+http://[NEW_IP_ADDRESS]/appdev/portfolio.php
+```
+
 ## ✨ Features
 
 ### Design Elements
