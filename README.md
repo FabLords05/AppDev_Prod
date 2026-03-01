@@ -89,6 +89,7 @@ sudo mount --bind /home/fabiojoseph/Documents/AppDev_Prod /opt/lampp/htdocs/appd
 ip a
 must use a hotspot
 http://[NEW_IP_ADDRESS]/appdev/portfolio.php
+ex: http://192.168.1.32/appdev/portfolio.php
 ```
 
 ## ✨ Features
