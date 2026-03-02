@@ -85,6 +85,7 @@ doc/
 4. **bind the file.**
 ```
 turn on the mysql
+cd /opt/lampp && sudo ./manager-linux-x64.run
 sudo mount --bind /home/fabiojoseph/Documents/AppDev_Prod /opt/lampp/htdocs/appdev
 ip a
 must use a hotspot
