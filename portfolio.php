@@ -13,9 +13,9 @@
         <nav class="top-nav" style="display:flex; justify-content: space-between; align-items: center;">
             <div class="nav-brand"><span>My</span>Portfolio</div>
             <ul class="nav-links">
-                <li>Home</li>
-                <li>About</li>
-                <li>Contacts</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contacts">Contacts</a></li>
                 <li><i class="fas fa-sun"></i></li>
             </ul>
         </nav>

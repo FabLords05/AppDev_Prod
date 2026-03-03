@@ -41,7 +41,11 @@ This portfolio website serves as a professional online presence, highlighting sk
 doc/
 ├── portfolio.html       # Main HTML file
 ├── portfolio.css        # Primary stylesheet
-├── fabio.jpg            # Profile image
+├── assets/              # image assets
+│   ├── fabio.jpg        # Profile image
+│   ├── ustp.png         # Education icon
+│   ├── hobbies.png      # Hobbies icon
+│   └── linux.png        # Projects icon
 ├── css/                 # FontAwesome icons
 │   ├── all.css
 ├── webfonts/            # FontAwesome web fonts
@@ -158,9 +162,9 @@ ex: http://192.168.1.32/appdev/portfolio.php
 
 ### Updating Profile Image
 
-1. Replace `fabio.jpg` with your image
-2. Ensure image is in the `doc/` directory
-3. HTML automatically references it
+1. Replace `assets/fabio.jpg` with your image (or copy a new file into `assets/` and update `data.php`).
+2. Ensure the image path in `data.php` points to `assets/your-image-name.jpg`.
+3. HTML/PHP will automatically reference the updated path.
 
 ## 🌐 Deployment
 

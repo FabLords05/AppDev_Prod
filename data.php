@@ -5,7 +5,7 @@ $role = "BSIT Student";
 $age = "21 Years Old";
 $location = "Talakag, Philippines";
 $hero_desc = "I am a dedicated IT student with a strong interest in technology, Linux environments, and system design. I am currently developing a web-based GIS system and always eager to improve my skills through hands-on experience and continuous learning.";
-$profile_img = "fabio.jpg"; 
+$profile_img = "assets/fabio.jpg"; 
 $email = "tugonon.fabiojoseph@gmail.com"; 
 
 $socials = [

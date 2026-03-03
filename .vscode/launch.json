@@ -1,15 +1,16 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
+            "type": "pwa-chrome",
             "request": "launch",
-            "name": "Run PHP on XAMPP (Windows)",
-            "url": "http://localhost/appdev_prod/${fileBasename}",
-            "webRoot": "${workspaceFolder}"
+            "name": "Run PHP on XAMPP",
+            "url": "http://localhost/appdev/${fileBasename}",
+            "runtimeExecutable": "/usr/bin/brave",
+            "webRoot": "${workspaceFolder}",
+            "runtimeArgs": [
+                "--user-data-dir=${workspaceFolder}/.vscode/brave-debug-profile"
+            ]
         }
     ]
 }
