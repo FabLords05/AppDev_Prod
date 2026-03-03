@@ -1,34 +1,37 @@
 <?php
 // data.php - configuration file
-$name = "Fabio Joseph M. Tugonon";
-$role = "IT Specialist — Network Engineering & Backend Systems";
-$hero_desc = "I am an IT student specializing in Network Engineering and Back End Development.
-    My technical expertise includes configuring Cisco devices for Layer 2/3 protocols, mitigating LAN threats,
-    and developing mobile applications using Flutter and Dart with MongoDB. Currently, I am focused 
-    on system architecture projects and exploring ethical hacking and Linux environment customization.";
+$name = "FABIO JOSEPH M. TUGONON";
+$role = "BSIT Student";
+$age = "21 Years Old";
+$location = "Talakag, Philippines";
+$hero_desc = "I am a dedicated IT student with a strong interest in technology, Linux environments, and system design. I am currently developing a web-based GIS system and always eager to improve my skills through hands-on experience and continuous learning.";
 $profile_img = "fabio.jpg"; 
 $email = "tugonon.fabiojoseph@gmail.com"; 
-// Social Links 
+
 $socials = [
-    ["link" => "https://www.facebook.com/FabLords.050604/", "icon" => "fab fa-facebook"],
-    ["link" => "https://www.instagram.com/fablords.050604/", "icon" => "fab fa-instagram"],
-    ["link" => "https://www.linkedin.com/in/fabio-joseph-tugonon-906788305/", "icon" => "fab fa-linkedin"],
-    ["link" => "https://github.com/FabLords05/", "icon" => "fab fa-github"]
+    ["link" => "#", "icon" => "fab fa-facebook-f"],
+    ["link" => "#", "icon" => "fab fa-instagram"],
+    ["link" => "#", "icon" => "fab fa-github"]
 ];
-// Expertise/Skills
-$skills = [
-    ["name" => "Network Engineering", "desc" => "Cisco Configuration, Layer 2/3 Protocols, 
-                LAN Threat Mitigation", "icon" => "fas fa-network-wired"],
-    ["name" => "Mobile Dev", "desc" => "Flutter & Dart Development, Cross-platform Apps", "icon" =>
-                "fas fa-mobile-alt"],
-    ["name" => "Backend Systems", "desc" => "MongoDB Database Management, System Architecture", "icon" =>
-                "fas fa-database"],
-    ["name" => "Linux & Security", "desc" => "Environment Customization, Ethical Hacking Basics", "icon" =>
-    "fas fa-terminal"]
+
+$about_items = [
+    [
+        "title" => "University of Science and Technology of Southern Philippines",
+        "year" => "(2023 - Present)",
+        "desc" => "I am presently enrolled here, pursuing a Bachelor of Science in Information Technology and focusing on completing my capstone project.",
+        "icon" => "assets/ustp.png"
+    ],
+    [
+        "title" => "Hobbies",
+        "year" => "",
+        "desc" => "I enjoy playing Mobile Legends and Arknights: Endfield, watching anime, and studying the Japanese language. I also spend time tweaking my Nyarch Linux setup.",
+        "icon" => "assets/hobbies.png"
+    ],
+    [
+        "title" => "Projects",
+        "year" => "",
+        "desc" => "• Web-based GIS system using Leaflet.js and Flask<br>• Nyarch Linux distribution (Arch-based, gaming/multimedia)",
+        "icon" => "assets/linux.png"
+    ]
 ];
-// Projects
-$projects = [
-    ["title" => "Tap&Collect", "cat" => "System Architecture", "desc" => "A comprehensive system architecture 
-    project focusing on efficient data collection.", "img" => "project1.jpg"],
-   ];
 ?>

@@ -5,15 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "pwa-chrome",
+            "type": "chrome",
             "request": "launch",
-            "name": "Run PHP on XAMPP",
-            "url": "http://localhost/appdev/${fileBasename}",
-            "runtimeExecutable": "/usr/bin/brave",
-            "webRoot": "${workspaceFolder}",
-            "runtimeArgs": [
-                "--user-data-dir=${workspaceFolder}/.vscode/brave-debug-profile"
-            ]
+            "name": "Run PHP on XAMPP (Windows)",
+            "url": "http://localhost/appdev_prod/${fileBasename}",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
