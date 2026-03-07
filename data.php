@@ -1,7 +1,7 @@
 <?php
 // data.php - configuration file
 $name = "FABIO JOSEPH M. TUGONON";
-$role = "BSIT Student";
+$role = "BSIT 3rd year Student";
 $age = "21 Years Old";
 $location = "Talakag, Philippines";
 $hero_desc = "I am a dedicated IT student with a strong interest in technology, Linux environments, and system design. I am currently developing a web-based GIS system and always eager to improve my skills through hands-on experience and continuous learning.";

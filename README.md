@@ -91,6 +91,7 @@ doc/
 turn on the mysql
 cd /opt/lampp && sudo ./manager-linux-x64.run
 sudo mount --bind /home/fabiojoseph/Documents/AppDev_Prod /opt/lampp/htdocs/appdev
+chmod -R 755 /opt/lampp/htdocs/appdev
 ip a
 must use a hotspot
 http://[NEW_IP_ADDRESS]/appdev/portfolio.php
